@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A9595681CA8D14700E1BCFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9595671CA8D14700E1BCFF /* main.m */; };
+		2A95956B1CA8D14700E1BCFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95956A1CA8D14700E1BCFF /* AppDelegate.m */; };
+		2A95956E1CA8D14700E1BCFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95956D1CA8D14700E1BCFF /* ViewController.m */; };
+		2A9595711CA8D14700E1BCFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A95956F1CA8D14700E1BCFF /* Main.storyboard */; };
+		2A9595731CA8D14700E1BCFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9595721CA8D14700E1BCFF /* Assets.xcassets */; };
+		2A9595761CA8D14700E1BCFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9595741CA8D14700E1BCFF /* LaunchScreen.storyboard */; };
+		2A9595811CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9595801CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotificationTests.m */; };
+		2A95958C1CA8D14800E1BCFF /* LMJKeyboardShowHiddenNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95958B1CA8D14800E1BCFF /* LMJKeyboardShowHiddenNotificationUITests.m */; };
+		2A9595A01CA8D1BC00E1BCFF /* LMJKeyboardShowHiddenNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95959F1CA8D1BC00E1BCFF /* LMJKeyboardShowHiddenNotificationCenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A95957D1CA8D14700E1BCFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A95955B1CA8D14700E1BCFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A9595621CA8D14700E1BCFF;
+			remoteInfo = LMJKeyboardShowHiddenNotification;
+		};
+		2A9595881CA8D14800E1BCFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A95955B1CA8D14700E1BCFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A9595621CA8D14700E1BCFF;
+			remoteInfo = LMJKeyboardShowHiddenNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A9595631CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMJKeyboardShowHiddenNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9595671CA8D14700E1BCFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A9595691CA8D14700E1BCFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A95956A1CA8D14700E1BCFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A95956C1CA8D14700E1BCFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A95956D1CA8D14700E1BCFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A9595701CA8D14700E1BCFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A9595721CA8D14700E1BCFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A9595751CA8D14700E1BCFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A9595771CA8D14700E1BCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A95957C1CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMJKeyboardShowHiddenNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9595801CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJKeyboardShowHiddenNotificationTests.m; sourceTree = "<group>"; };
+		2A9595821CA8D14700E1BCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9595871CA8D14800E1BCFF /* LMJKeyboardShowHiddenNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMJKeyboardShowHiddenNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A95958B1CA8D14800E1BCFF /* LMJKeyboardShowHiddenNotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJKeyboardShowHiddenNotificationUITests.m; sourceTree = "<group>"; };
+		2A95958D1CA8D14800E1BCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A95959E1CA8D1BC00E1BCFF /* LMJKeyboardShowHiddenNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJKeyboardShowHiddenNotificationCenter.h; sourceTree = "<group>"; };
+		2A95959F1CA8D1BC00E1BCFF /* LMJKeyboardShowHiddenNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJKeyboardShowHiddenNotificationCenter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A9595601CA8D14700E1BCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9595791CA8D14700E1BCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9595841CA8D14800E1BCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A95955A1CA8D14700E1BCFF = {
+			isa = PBXGroup;
+			children = (
+				2A95959D1CA8D1BC00E1BCFF /* LMJKeyboardShowHiddenNotificationCenter */,
+				2A9595651CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotification */,
+				2A95957F1CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotificationTests */,
+				2A95958A1CA8D14800E1BCFF /* LMJKeyboardShowHiddenNotificationUITests */,
+				2A9595641CA8D14700E1BCFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A9595641CA8D14700E1BCFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A9595631CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotification.app */,
+				2A95957C1CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotificationTests.xctest */,
+				2A9595871CA8D14800E1BCFF /* LMJKeyboardShowHiddenNotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A9595651CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotification */ = {
+			isa = PBXGroup;
+			children = (
+				2A9595691CA8D14700E1BCFF /* AppDelegate.h */,
+				2A95956A1CA8D14700E1BCFF /* AppDelegate.m */,
+				2A95956C1CA8D14700E1BCFF /* ViewController.h */,
+				2A95956D1CA8D14700E1BCFF /* ViewController.m */,
+				2A95956F1CA8D14700E1BCFF /* Main.storyboard */,
+				2A9595721CA8D14700E1BCFF /* Assets.xcassets */,
+				2A9595741CA8D14700E1BCFF /* LaunchScreen.storyboard */,
+				2A9595771CA8D14700E1BCFF /* Info.plist */,
+				2A9595661CA8D14700E1BCFF /* Supporting Files */,
+			);
+			path = LMJKeyboardShowHiddenNotification;
+			sourceTree = "<group>";
+		};
+		2A9595661CA8D14700E1BCFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A9595671CA8D14700E1BCFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A95957F1CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A9595801CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotificationTests.m */,
+				2A9595821CA8D14700E1BCFF /* Info.plist */,
+			);
+			path = LMJKeyboardShowHiddenNotificationTests;
+			sourceTree = "<group>";
+		};
+		2A95958A1CA8D14800E1BCFF /* LMJKeyboardShowHiddenNotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A95958B1CA8D14800E1BCFF /* LMJKeyboardShowHiddenNotificationUITests.m */,
+				2A95958D1CA8D14800E1BCFF /* Info.plist */,
+			);
+			path = LMJKeyboardShowHiddenNotificationUITests;
+			sourceTree = "<group>";
+		};
+		2A95959D1CA8D1BC00E1BCFF /* LMJKeyboardShowHiddenNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				2A95959E1CA8D1BC00E1BCFF /* LMJKeyboardShowHiddenNotificationCenter.h */,
+				2A95959F1CA8D1BC00E1BCFF /* LMJKeyboardShowHiddenNotificationCenter.m */,
+			);
+			path = LMJKeyboardShowHiddenNotificationCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A9595621CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9595901CA8D14800E1BCFF /* Build configuration list for PBXNativeTarget "LMJKeyboardShowHiddenNotification" */;
+			buildPhases = (
+				2A95955F1CA8D14700E1BCFF /* Sources */,
+				2A9595601CA8D14700E1BCFF /* Frameworks */,
+				2A9595611CA8D14700E1BCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMJKeyboardShowHiddenNotification;
+			productName = LMJKeyboardShowHiddenNotification;
+			productReference = 2A9595631CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A95957B1CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9595931CA8D14800E1BCFF /* Build configuration list for PBXNativeTarget "LMJKeyboardShowHiddenNotificationTests" */;
+			buildPhases = (
+				2A9595781CA8D14700E1BCFF /* Sources */,
+				2A9595791CA8D14700E1BCFF /* Frameworks */,
+				2A95957A1CA8D14700E1BCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A95957E1CA8D14700E1BCFF /* PBXTargetDependency */,
+			);
+			name = LMJKeyboardShowHiddenNotificationTests;
+			productName = LMJKeyboardShowHiddenNotificationTests;
+			productReference = 2A95957C1CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A9595861CA8D14800E1BCFF /* LMJKeyboardShowHiddenNotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9595961CA8D14800E1BCFF /* Build configuration list for PBXNativeTarget "LMJKeyboardShowHiddenNotificationUITests" */;
+			buildPhases = (
+				2A9595831CA8D14800E1BCFF /* Sources */,
+				2A9595841CA8D14800E1BCFF /* Frameworks */,
+				2A9595851CA8D14800E1BCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A9595891CA8D14800E1BCFF /* PBXTargetDependency */,
+			);
+			name = LMJKeyboardShowHiddenNotificationUITests;
+			productName = LMJKeyboardShowHiddenNotificationUITests;
+			productReference = 2A9595871CA8D14800E1BCFF /* LMJKeyboardShowHiddenNotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A95955B1CA8D14700E1BCFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "iOS开发者公会";
+				TargetAttributes = {
+					2A9595621CA8D14700E1BCFF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2A95957B1CA8D14700E1BCFF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2A9595621CA8D14700E1BCFF;
+					};
+					2A9595861CA8D14800E1BCFF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2A9595621CA8D14700E1BCFF;
+					};
+				};
+			};
+			buildConfigurationList = 2A95955E1CA8D14700E1BCFF /* Build configuration list for PBXProject "LMJKeyboardShowHiddenNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A95955A1CA8D14700E1BCFF;
+			productRefGroup = 2A9595641CA8D14700E1BCFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9595621CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotification */,
+				2A95957B1CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotificationTests */,
+				2A9595861CA8D14800E1BCFF /* LMJKeyboardShowHiddenNotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9595611CA8D14700E1BCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9595761CA8D14700E1BCFF /* LaunchScreen.storyboard in Resources */,
+				2A9595731CA8D14700E1BCFF /* Assets.xcassets in Resources */,
+				2A9595711CA8D14700E1BCFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A95957A1CA8D14700E1BCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9595851CA8D14800E1BCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A95955F1CA8D14700E1BCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A95956E1CA8D14700E1BCFF /* ViewController.m in Sources */,
+				2A9595A01CA8D1BC00E1BCFF /* LMJKeyboardShowHiddenNotificationCenter.m in Sources */,
+				2A95956B1CA8D14700E1BCFF /* AppDelegate.m in Sources */,
+				2A9595681CA8D14700E1BCFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9595781CA8D14700E1BCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9595811CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9595831CA8D14800E1BCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A95958C1CA8D14800E1BCFF /* LMJKeyboardShowHiddenNotificationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A95957E1CA8D14700E1BCFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A9595621CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotification */;
+			targetProxy = 2A95957D1CA8D14700E1BCFF /* PBXContainerItemProxy */;
+		};
+		2A9595891CA8D14800E1BCFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A9595621CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotification */;
+			targetProxy = 2A9595881CA8D14800E1BCFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A95956F1CA8D14700E1BCFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9595701CA8D14700E1BCFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A9595741CA8D14700E1BCFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9595751CA8D14700E1BCFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A95958E1CA8D14800E1BCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A95958F1CA8D14800E1BCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A9595911CA8D14800E1BCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMJKeyboardShowHiddenNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LMJ.LMJKeyboardShowHiddenNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A9595921CA8D14800E1BCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMJKeyboardShowHiddenNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LMJ.LMJKeyboardShowHiddenNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A9595941CA8D14800E1BCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMJKeyboardShowHiddenNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LMJ.LMJKeyboardShowHiddenNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMJKeyboardShowHiddenNotification.app/LMJKeyboardShowHiddenNotification";
+			};
+			name = Debug;
+		};
+		2A9595951CA8D14800E1BCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMJKeyboardShowHiddenNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LMJ.LMJKeyboardShowHiddenNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMJKeyboardShowHiddenNotification.app/LMJKeyboardShowHiddenNotification";
+			};
+			name = Release;
+		};
+		2A9595971CA8D14800E1BCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMJKeyboardShowHiddenNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LMJ.LMJKeyboardShowHiddenNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMJKeyboardShowHiddenNotification;
+			};
+			name = Debug;
+		};
+		2A9595981CA8D14800E1BCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMJKeyboardShowHiddenNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LMJ.LMJKeyboardShowHiddenNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMJKeyboardShowHiddenNotification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A95955E1CA8D14700E1BCFF /* Build configuration list for PBXProject "LMJKeyboardShowHiddenNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A95958E1CA8D14800E1BCFF /* Debug */,
+				2A95958F1CA8D14800E1BCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9595901CA8D14800E1BCFF /* Build configuration list for PBXNativeTarget "LMJKeyboardShowHiddenNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9595911CA8D14800E1BCFF /* Debug */,
+				2A9595921CA8D14800E1BCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A9595931CA8D14800E1BCFF /* Build configuration list for PBXNativeTarget "LMJKeyboardShowHiddenNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9595941CA8D14800E1BCFF /* Debug */,
+				2A9595951CA8D14800E1BCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A9595961CA8D14800E1BCFF /* Build configuration list for PBXNativeTarget "LMJKeyboardShowHiddenNotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9595971CA8D14800E1BCFF /* Debug */,
+				2A9595981CA8D14800E1BCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A95955B1CA8D14700E1BCFF /* Project object */;
+}
