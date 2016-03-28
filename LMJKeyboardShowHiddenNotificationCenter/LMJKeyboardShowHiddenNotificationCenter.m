@@ -18,6 +18,7 @@
     static LMJKeyboardShowHiddenNotificationCenter * center = nil;
     if (center == nil) {
         center = [[LMJKeyboardShowHiddenNotificationCenter alloc] init];
+        center.delegate = nil;
         
         [[NSNotificationCenter defaultCenter] addObserver:center selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
         [[NSNotificationCenter defaultCenter] addObserver:center selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
