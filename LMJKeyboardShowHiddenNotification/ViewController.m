@@ -50,4 +50,8 @@
     return YES;
 }
 
+- (void)dealloc{
+    [[LMJKeyboardShowHiddenNotificationCenter defineCenter] closeCurrentNotification];
+}
+
 @end

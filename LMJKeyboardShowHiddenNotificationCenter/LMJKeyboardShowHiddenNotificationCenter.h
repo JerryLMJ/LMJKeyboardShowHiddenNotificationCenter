@@ -24,6 +24,7 @@
 
 @property (nonatomic,assign) id <LMJKeyboardShowHiddenNotificationCenterDelegate> delegate;
 
-//- (void)closeCurrentNotification;
+// 在对象dealloc时候调用
+- (void)closeCurrentNotification;
 
 @end
