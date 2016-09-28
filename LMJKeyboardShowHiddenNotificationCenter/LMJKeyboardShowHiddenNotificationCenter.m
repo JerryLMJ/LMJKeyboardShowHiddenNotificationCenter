@@ -33,7 +33,7 @@
     if ([[delegate class] isSubclassOfClass:[UIViewController class]]) {
         [[(UIViewController *)_delegate view] endEditing:YES];
     }else{
-        NSAssert(NO, @"请将当前第一响应控件所在的ViewController作为代理对象传入");
+        NSAssert(NO, @"请将当前响应控件所在的ViewController作为代理参数传入");
     }
     
     _delegate = delegate;
