@@ -16,24 +16,28 @@
 
 + (LMJKeyboardShowHiddenNotificationCenter *)defineCenter{
     static LMJKeyboardShowHiddenNotificationCenter * center = nil;
-    if (center == nil) {
-        center = [[LMJKeyboardShowHiddenNotificationCenter alloc] init];
-        center.delegate = nil;
-        
-        [[NSNotificationCenter defaultCenter] addObserver:center selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
-        [[NSNotificationCenter defaultCenter] addObserver:center selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
+    @synchronized (self) {
+        if (center == nil) {
+            center = [[LMJKeyboardShowHiddenNotificationCenter alloc] init];
+            
+            [[NSNotificationCenter defaultCenter] addObserver:center selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
+            [[NSNotificationCenter defaultCenter] addObserver:center selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
+        }
     }
     
     return center;
 }
 
 - (void)setDelegate:(id<LMJKeyboardShowHiddenNotificationCenterDelegate>)delegate{
-    _delegate = delegate;
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
-}
 
+    if ([[delegate class] isSubclassOfClass:[UIViewController class]]) {
+        [[(UIViewController *)_delegate view] endEditing:YES];
+    }else{
+        NSAssert(NO, @"请将当前第一响应控件所在的ViewController作为代理对象传入");
+    }
+    
+    _delegate = delegate;
+}
 
 - (void)keyboardWillShow:(NSNotification *)notification {
     
@@ -82,6 +86,7 @@
     if ([self.delegate respondsToSelector:@selector(showOrHiddenKeyboardWithHeight:withDuration:isShow:)]) {
         [self.delegate showOrHiddenKeyboardWithHeight:0.0 withDuration:animationDuration isShow:NO];
     }
+    
 }
 
 
@@ -95,13 +100,6 @@
     }
     return NO;
 }
-
-
-- (void)closeCurrentNotification{
-    self.delegate = nil;
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
-
 
 - (void)dealloc{
     [[NSNotificationCenter defaultCenter] removeObserver:self];

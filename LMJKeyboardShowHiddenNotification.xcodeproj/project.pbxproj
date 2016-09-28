@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A4BEC3B1D9B5EC90011BBE9 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4BEC3A1D9B5EC90011BBE9 /* ViewController1.m */; };
+		2A4BEC3E1D9BABAF0011BBE9 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4BEC3D1D9BABAF0011BBE9 /* ViewController2.m */; };
 		2A9595681CA8D14700E1BCFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9595671CA8D14700E1BCFF /* main.m */; };
 		2A95956B1CA8D14700E1BCFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95956A1CA8D14700E1BCFF /* AppDelegate.m */; };
 		2A95956E1CA8D14700E1BCFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95956D1CA8D14700E1BCFF /* ViewController.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A4BEC391D9B5EC90011BBE9 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		2A4BEC3A1D9B5EC90011BBE9 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		2A4BEC3C1D9BABAF0011BBE9 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		2A4BEC3D1D9BABAF0011BBE9 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		2A9595631CA8D14700E1BCFF /* LMJKeyboardShowHiddenNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMJKeyboardShowHiddenNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9595671CA8D14700E1BCFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A9595691CA8D14700E1BCFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +115,10 @@
 				2A95956A1CA8D14700E1BCFF /* AppDelegate.m */,
 				2A95956C1CA8D14700E1BCFF /* ViewController.h */,
 				2A95956D1CA8D14700E1BCFF /* ViewController.m */,
+				2A4BEC391D9B5EC90011BBE9 /* ViewController1.h */,
+				2A4BEC3A1D9B5EC90011BBE9 /* ViewController1.m */,
+				2A4BEC3C1D9BABAF0011BBE9 /* ViewController2.h */,
+				2A4BEC3D1D9BABAF0011BBE9 /* ViewController2.m */,
 				2A95956F1CA8D14700E1BCFF /* Main.storyboard */,
 				2A9595721CA8D14700E1BCFF /* Assets.xcassets */,
 				2A9595741CA8D14700E1BCFF /* LaunchScreen.storyboard */,
@@ -283,10 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4BEC3B1D9B5EC90011BBE9 /* ViewController1.m in Sources */,
 				2A95956E1CA8D14700E1BCFF /* ViewController.m in Sources */,
 				2A9595A01CA8D1BC00E1BCFF /* LMJKeyboardShowHiddenNotificationCenter.m in Sources */,
 				2A95956B1CA8D14700E1BCFF /* AppDelegate.m in Sources */,
 				2A9595681CA8D14700E1BCFF /* main.m in Sources */,
+				2A4BEC3E1D9BABAF0011BBE9 /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +524,7 @@
 				2A9595921CA8D14800E1BCFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A9595931CA8D14800E1BCFF /* Build configuration list for PBXNativeTarget "LMJKeyboardShowHiddenNotificationTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +533,7 @@
 				2A9595951CA8D14800E1BCFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A9595961CA8D14800E1BCFF /* Build configuration list for PBXNativeTarget "LMJKeyboardShowHiddenNotificationUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +542,7 @@
 				2A9595981CA8D14800E1BCFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
