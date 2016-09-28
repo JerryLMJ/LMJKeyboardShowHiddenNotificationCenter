@@ -13,7 +13,6 @@
 
 @implementation LMJKeyboardShowHiddenNotificationCenter
 
-
 + (LMJKeyboardShowHiddenNotificationCenter *)defineCenter{
     static LMJKeyboardShowHiddenNotificationCenter * center = nil;
     @synchronized (self) {
@@ -31,6 +30,7 @@
 - (void)setDelegate:(id<LMJKeyboardShowHiddenNotificationCenterDelegate>)delegate{
 
     if ([[delegate class] isSubclassOfClass:[UIViewController class]]) {
+        // 在代理对象更改前，将现有代理对象中弹出的键盘收回
         [[(UIViewController *)_delegate view] endEditing:YES];
     }else{
         NSAssert(NO, @"请将当前响应控件所在的ViewController作为代理参数传入");
